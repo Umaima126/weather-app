@@ -1,0 +1,50 @@
+#box{
+background-color: aqua!important;
+}
+.weather-box{
+    position: absolute;
+    top: 50px;
+    left:400px;
+    height: 500px;
+     width:400px;
+     background: linear-gradient(360deg, rgba(36, 130, 212, 0.9),rgba(50, 75, 238, 0));
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px) !important;
+     border-radius: 18px;
+     border:1px solid rgba(255, 255, 255, 0.18);
+     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.nav{
+    color: black; 
+    border-radius:19px;
+    left: 40px;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    position: relative;
+    color:rgba(36, 130, 212, 0.9);
+    top:25px;
+    font-weight:700;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.info{
+    position: relative;
+    top:20px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    width:300px;
+    height: 200px;
+}
+.details{
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+}
+
